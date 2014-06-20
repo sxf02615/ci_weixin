@@ -1,4 +1,8 @@
 <?php
+/***
+**  QQ 83989686
+** mail: sxf02615@163.com
+**/
 class Wxl
 {
 	private $ctrl	= null;
@@ -159,7 +163,7 @@ class Wxl
                 $content = array();
                 $content = array("Title"=>"最炫民族风", "Description"=>"歌手：凤凰传奇", "MusicUrl"=>"http://121.199.4.61/music/zxmzf.mp3", "HQMusicUrl"=>"http://121.199.4.61/music/zxmzf.mp3");
             }else{
-                $content = date("Y-m-d H:i:s",time())."\n技术支持 方倍工作室";
+                $content = date("Y-m-d H:i:s",time())."\n技术支持 简至后台";
             }
             
             if(is_array($content)){
